@@ -157,9 +157,9 @@ def riproduttore():
         if(counter == 72):
             
             #per la stampa delle informazione è stato utilizzato stdout.write che è usato per stampare le informazioni
-            #direttamente sul cmd e non inserisce \n a fine riga,inoltre grazie alla libreria colorama
+            #direttamente sul cmd e non inserisce \n a fine riga, inoltre grazie alla libreria colorama
             #posso portare il cursore di nuovo in cima al cmd e non cancellare tutto il terminale
-            #con clear che farebbe flickerare non rendendolo fruibile
+            #con clear che farebbe flickerare non rendendo meno fruibile il video
             
             sys.stdout.write(Cursor.POS(0,0)+frame)
             sys.stdout.flush()
